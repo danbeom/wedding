@@ -16,7 +16,7 @@
 }
 .title{
     text-align: center;
-    font-size: 7vw;
+    font-size: 6vw;
     
 }
 .section_3{
@@ -84,4 +84,8 @@ button {
     padding: 20px;
     background-color: #EAEDFF;
     color: #091ED2;
+}
+
+.close_1 .close_2{
+    font-size: 8vw;
 }
