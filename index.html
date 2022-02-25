@@ -17,10 +17,10 @@
     <div class="section_3">
         <h1 class="title">마음을 전하실 곳</h1>
         <div class="bank_add_1">
-            <span class="name">구기면</span><span class="bank">우리은행  106-02-065207</span>
+            <span class="name">구기면</span><button id="copybtn" onclick="copyToClipboard('106-02-065207');"  class="bank">우리은행  106-02-065207</button>
         </div>
         <div class="bank_add_2">
-            <span class="name">최승영</span><span class="bank">농협은행  352-0119-4825</span>
+            <span class="name">최승영</span><button id="copybtn" onclick="copyToClipboard('352-0119-4825');"  class="bank">농협은행  352-0119-4825</button>
         </div> 
   </div>
     <div class="section">
@@ -45,5 +45,25 @@
         <h1 class="title"><br>오시는 길</h1>
         <img class="map" src="image/map_1.png">
   </div>
+    <script>
+    function copyToClipboard(val) {
+    var t = document.createElement("textarea");
+    document.body.appendChild(t);
+    t.value = val;
+    t.select();
+    document.execCommand('copy');
+    document.body.removeChild(t);
+    }
+
+    $('#copybtn1').click(function() {
+      copyToClipboard('106-02-065207');
+      alert('106-02-065207 복사되었습니다');
+    });
+
+    $('#copybtn2').click(function() {
+        copyToClipboard('352-0119-4825');
+      alert('352-0119-4825 복사되었습니다');
+    });
+  </script>
 </body>
 </html>
