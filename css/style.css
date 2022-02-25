@@ -1,0 +1,43 @@
+.th_img{
+    width: 30%;
+
+    object-position: top;
+}
+.img{
+    width: 100%;
+}
+.map{
+    width: 90%;
+}
+.section{
+    width: 100%;
+    text-align: center;
+    
+}
+.title{
+    text-align: center;
+    
+}
+.section_3{
+    background-color: #F8F3EC;
+    padding: 30px
+}
+
+.bank_add_1{
+    width: 100%;
+    text-align: center;
+}
+.bank_add_2{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.name{
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.bank{
+    font-size: 20px;
+}
